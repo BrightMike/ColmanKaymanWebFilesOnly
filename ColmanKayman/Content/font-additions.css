@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Comfortaa Bold';
+	src: url('fonts/Comfortaa-Bold.eot');
+	src: local('☺'), url('fonts/Comfortaa-Bold.woff') format('woff'), url('fonts/Comfortaa-Bold.ttf') format('truetype'), url('fonts/Comfortaa-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa Light';
+    src: url('fonts/comfortaa-light-webfont.eot');
+    src: url('fonts/comfortaa-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/comfortaa-light-webfont.woff2') format('woff2'),
+         url('fonts/comfortaa-light-webfont.woff') format('woff'),
+         url('fonts/comfortaa-light-webfont.ttf') format('truetype'),
+         url('fonts/comfortaa-light-webfont.svg#comfortaalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: 'Comfortaa Regular';
+		src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GeosansLight';
+		src: url('fonts/GeosansLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GeosansLight Oblique';
+		src: url('fonts/GeosansLight-Oblique.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'Coolvetica';
+    src: url('fonts/coolvetica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
