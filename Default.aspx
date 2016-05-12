@@ -1,21 +1,23 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+    
     <div id="banner-wrapper">
-					<div id="banner" class="box container">
+        		<div id="banner" class="box container bannImg">
+                         
 						<div class="row">
 							<div class="7u 12u(medium)">
+                                
 								<h2>Affordable Support for Employees</h2>
 								<p>Our tailor-made service provides access to readily available employment advice and assistance to suit employees from all over the country, whatever their needs.</p>
 							</div>
 							<div class="5u 12u(medium)">
 								<ul>
-									<li><a href="#" class="button big icon fa-arrow-circle-right">Ok let's go</a></li>
-									<li><a href="#" class="button alt big icon fa-question-circle">More info</a></li>
+									<li><a href="Account/Register.aspx" class="button big icon fa-arrow-circle-right">Ok let's go</a></li>
+									<li><a href="About.aspx" class="button alt big icon fa-question-circle">More info</a></li>
 								</ul>
 							</div>
-						</div>
+						</div> 
 					</div>
 				</div>
 
@@ -113,84 +115,8 @@
 					</div>
 				</div>
 
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						<div class="row">
-							<div class="3u 6u(medium) 12u$(small)">
+			
 
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="3u 6u$(medium) 12u$(small)">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="3u 6u(medium) 12u$(small)">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="3u 6u$(medium) 12u$(small)">
-
-								<!-- Contact -->
-									<section class="widget contact last">
-										<h3>Contact Us</h3>
-										<ul>
-											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											
-										</ul>
-										<p>Address Line 1<br />
-										Address Line 2<br />
-										01234 567890</p>
-									</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; Colman Kayman Employment Advisory Services. All rights reserved</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</footer>
-				</div>
-
-			</div>
+			
 </asp:Content>
 
