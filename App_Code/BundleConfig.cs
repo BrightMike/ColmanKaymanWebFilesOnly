@@ -41,6 +41,40 @@ namespace ColmanKayman
                     Path = "~/Scripts/respond.min.js",
                     DebugPath = "~/Scripts/respond.js",
                 });
+
+            //Add custom scripts
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+               "dropotron",
+               new ScriptResourceDefinition
+               {
+                   Path = "~/Scripts/jquery.dropotron.min.js",
+                   DebugPath = "~/Scripts/jquery.dropotron.min.js",
+               });
+
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+               "skel",
+               new ScriptResourceDefinition
+               {
+                   Path = "~/Scripts/skel.min.js",
+                   DebugPath = "~/Scripts/skel.min.js",
+               });
+
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+              "util",
+              new ScriptResourceDefinition
+              {
+                  Path = "~/Scripts/util.js",
+                  DebugPath = "~/Scripts/util.js",
+              });
+
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+             "main",
+             new ScriptResourceDefinition
+             {
+                 Path = "~/Scripts/main.js",
+                 DebugPath = "~/Scripts/main.js",
+             });
+
         }
     }
 }
