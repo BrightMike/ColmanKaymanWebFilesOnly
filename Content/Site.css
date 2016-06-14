@@ -37,7 +37,10 @@ textarea {
 */
 
 /* Reset */
-
+.bannImg {
+                background-image: url(../Content/images/stockfootage.png);
+                background-repeat: no-repeat;
+            }
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1643,6 +1646,7 @@ textarea {
 		text-decoration: none;
 		border-radius: 6px;
 		font-family: 'Comfortaa Regular', sans-serif;
+        text-decoration-style: none;
 		font-weight: 400;
 		outline: 0;
 		border: 0;
@@ -1903,7 +1907,7 @@ textarea {
 
 	#logo {
 		display: inline-block;
-		max-height: 270px;
+		/*max-height: 50px;*/
 		
 	}
 		#logo h1 {
@@ -1925,9 +1929,9 @@ textarea {
 			border-radius: 6px;
 			padding: 0.25em 0.2em 0.25em 0.2em;
 			margin-right: 1em;
-			max-width: 200px;
+            max-width: 200px;
 		 	display: inline-block;
-			vertical-align: middle;
+			vertical-align:middle;
 		}
 
 		#logo h2 {
@@ -1936,12 +1940,19 @@ textarea {
 			font-weight: 800;
 			line-height: 1em;
 			letter-spacing: 0.025em;
-			font-size: 1.5em;
-			vertical-align: middle;
+            padding: 0 0 0 0.2em;
+            border: 0 0 0 0em;
+            font-size: 1.5em;
+            
+			/*vertical-align: middle;*/
 			text-align: left;
-			margin: 0 0 0 0em;
-			padding-left: 10;
+			margin: 0 1em 0 0.5em;
+			
 		}
+        
+        #logo a {
+            text-decoration:none;
+        }
 
 /* Nav */
 
@@ -2048,10 +2059,12 @@ textarea {
 			}
 
 /* Banner */
+    
+    
 
 	#banner {
 		position: relative;
-		padding: 4.5em;
+        padding: 4.5em;
 	}
 
 		#banner h2 {
@@ -2258,6 +2271,8 @@ textarea {
 				padding: 4.5em 3em;
 				text-align: center;
 			}
+
+            
 
 				#banner ul {
 					margin: 2em 0 0 0;
@@ -2585,7 +2600,12 @@ textarea {
 
 			#banner-wrapper {
 				padding: 0 15px 0 15px;
+                
 			}
+                #banner-warpper img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
 
 			#features-wrapper {
 				padding: 0 15px 40px 15px;
@@ -2631,6 +2651,7 @@ textarea {
 
 				#banner .button {
 					margin: 0 0 1em 0;
+                    text-decoration-style: none;
 				}
 
 		/* Content */
