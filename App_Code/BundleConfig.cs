@@ -75,6 +75,14 @@ namespace ColmanKayman
                  DebugPath = "~/Scripts/main.js",
              });
 
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+             "remodal",
+             new ScriptResourceDefinition
+             {
+                 Path = "~/Scripts/remodal.min.js",
+                 DebugPath = "~/Scripts/remodal.min.js",
+             });
+
         }
     }
 }

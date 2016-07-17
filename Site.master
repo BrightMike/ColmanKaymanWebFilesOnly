@@ -29,6 +29,7 @@
                 <asp:ScriptReference Name="skel" />
                 <asp:ScriptReference Name="util"  />
                 <asp:ScriptReference Name="main" />
+                <asp:ScriptReference Name="remodal" />
                 <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
                 <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
                 <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
@@ -38,6 +39,7 @@
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
+                
                 
                 <%--Site Scripts--%>
             </Scripts>
@@ -49,7 +51,7 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<a href="Default.aspx">
+								<a href="../Default.aspx">
                                 <img src="../Content/images/dovemid.png" alt="" style="float:left;"/>
 								<h1>Colman Kayman</h1>
                                 <h2>Employment Advisory Services</h2>
@@ -60,7 +62,7 @@
 							<nav id="nav">
 								<ul>
                                     <li><a href="../About.aspx">About</a></li>
-									<li><a href="../Default.aspx">Services</a></li>
+									<li><a href="../Services.aspx">Services</a></li>
 									<li><a href="../Contact.aspx">Contact</a></li>
 
 					    <asp:LoginView runat="server" ViewStateMode="Disabled">
@@ -71,12 +73,12 @@
                             
                         </AnonymousTemplate>
                         <LoggedInTemplate>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                            <!--<ul class="nav navbar-nav navbar-right"> -->
+                                <li><a runat="server" href="~/Account/Manage.aspx" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %>!</a></li>
                                 <li>
                                     <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
                                 </li>
-                            </ul>
+                           <!-- </ul> -->
                         </LoggedInTemplate>
                     </asp:LoginView>
 									

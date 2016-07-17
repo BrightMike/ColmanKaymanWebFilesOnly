@@ -1487,7 +1487,7 @@ textarea {
 		display: block;
 		font-weight: 800;
 		margin: 0 0 1em 0;
-		font-size: 0.8em;
+		font-size: 1em;
 		color: #444;
 	}
 
@@ -1500,7 +1500,7 @@ textarea {
 		display: block;
 		width: 100%;
 		border-radius: 8px;
-		border: solid 1px #eee;
+		border: solid 2px #316271;
 	}
 
 		form input[type="text"]:focus,
@@ -1671,6 +1671,7 @@ textarea {
 		button:hover,
 		.button:hover {
 			background: #408195;
+            color:#444;
 		}
 
 		input[type="button"]:active,
@@ -1716,6 +1717,7 @@ textarea {
 		.button.big {
 			font-size: 2.25em;
 			padding: 0.8em 0.9em;
+            
 		}
 
 /* List */
@@ -2674,6 +2676,40 @@ textarea {
 
 	}
 
+    .question {
+        width:inherit;
+        max-width:inherit;
+        height:auto;
+        text-align:center;
+
+    }
+        .question h2 {
+            position:relative;
+            vertical-align:central;
+            margin: 0 auto;
+        }
+
+        .question hr {
+
+            margin-top: 5em;
+            margin-bottom: 5em;
+        }
+        .question .button {
+            max-width:200px;
+            position:relative;
+            margin-left:10%;
+            margin-right:10%;
+            margin-bottom:5px;
+            
+        }
+        #regBut ui-btn::before{
+            font-size:1px;
+        }
+       #regBut {
+           font-size:initial;
+       }
+
+    /*Fonts*/
 	@font-face {
 	font-family: 'Comfortaa Bold';
 	src: url('../fonts/Comfortaa-Bold.eot');
@@ -2681,7 +2717,7 @@ textarea {
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
+    @font-face {
     font-family: 'Comfortaa Light';
     src: url('../fonts/comfortaa-light-webfont.eot');
     src: url('../fonts/comfortaa-light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -2693,25 +2729,25 @@ textarea {
     font-style: normal;
 
 }
-@font-face {
+    @font-face {
 	font-family: 'Comfortaa Regular';
 		src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
+    @font-face {
 	font-family: 'GeosansLight';
 		src: url('../fonts/GeosansLight.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
+    @font-face {
 	font-family: 'GeosansLight Oblique';
 		src: url('../fonts/GeosansLight-Oblique.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
+    @font-face {
   font-family: 'Coolvetica';
     src: url('../fonts/coolvetica.ttf') format('truetype');
   font-weight: normal;

@@ -7,7 +7,7 @@ using ColmanKayman;
 
 public partial class Account_Login : Page
 {
-        protected void Page_Load(object sender, EventArgs e)
+       /* protected void Page_Load(object sender, EventArgs e)
         {
             RegisterHyperLink.NavigateUrl = "Register";
             OpenAuthLogin.ReturnUrl = Request.QueryString["ReturnUrl"];
@@ -17,7 +17,7 @@ public partial class Account_Login : Page
                 RegisterHyperLink.NavigateUrl += "?ReturnUrl=" + returnUrl;
             }
         }
-
+        */
         protected void LogIn(object sender, EventArgs e)
         {
             if (IsValid)
